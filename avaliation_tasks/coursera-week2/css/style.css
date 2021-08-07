@@ -1,0 +1,184 @@
+* {
+	box-sizing: border-box;
+	font-family: cursive, serif;
+}
+
+.row {
+	width: 100%;
+}
+
+h1 {
+	font-size: 175%;
+	text-align: center;
+	color: greenyellow;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+h2 {
+	border: 1px solid black;
+	padding: 5px;
+	color: white;
+	float: right;
+	clear: both;
+	margin: 0px;
+	font-size: 125%;
+}
+
+
+h3 {
+	padding-left: 5%;
+	clear: both;
+	font-size: 100%;
+	font-weight: bold;
+	color: ForestGreen;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+section {
+	border: 1px solid black;
+	height: 420px;
+	background: NavajoWhite;
+}
+
+
+p {
+	font-size: 100%;
+	text-align: justify;
+}
+
+
+section p {
+	width: 90%;
+	clear: both;	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#section1 h2{
+	background: goldenrod;	
+}
+
+
+#section2 h2{
+	background: DarkOrange;	
+}
+
+
+#section3 h2{
+	background: PaleVioletRed;	
+}
+
+
+li {
+	padding-right: 10px;
+	text-align: justify;
+}
+
+
+ol {
+	adding-right: 10px;
+	text-align: justify;
+}
+
+
+#reference {
+	clear: both;
+	padding-top: 10px;
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 5%;
+}
+
+
+a {
+	text-decoration: none;
+	font-size: 100%;
+	font-weight: bold;
+	color: SteelBlue;
+}
+
+
+a:hover {
+	background: SteelBlue;
+	text-decoration: none;
+	font-size: 100%;
+	font-weight: bold;
+	color: white;
+}
+
+
+@media (min-width: 992px) {
+	section {
+		float: left;
+		width: 31%;
+		overflow: auto;
+		margin-left: 10px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+	section {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		overflow: auto;	
+	}
+
+	#section1 {
+		float: left;
+		width: 49%;
+		overflow: auto;
+		margin-right: 5px;
+	}
+
+	#section2 {
+		float: right;
+		width: 49%;
+		overflow: auto;
+		margin-left: 5px;
+	}
+
+	#section3 {
+		clear: both;
+		width: 100)%;
+	}
+}
+
+
+@media (max-width: 767px) {
+		section {
+		overflow: auto;
+		margin-top: 10px;
+		margin-bottom: 10px;	
+	}
+
+	p {
+		padding-right: 10px;
+	}
+
+	#section1 {
+		float: left;
+		width: 100%;
+		clear: both;
+	}
+
+	#section2 {
+		float: left;
+		width: 100%;
+		clear: both;
+	}
+
+	#section3 {
+		float: left;
+		width: 100%;
+		clear: both;
+	}
+
+}	
