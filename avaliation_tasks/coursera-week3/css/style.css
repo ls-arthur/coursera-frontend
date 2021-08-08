@@ -1,3 +1,8 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+
 /* - - - - - HEADER - - - - - */
 
 #Navbar{
@@ -6,7 +11,40 @@
 	border: 0;
 }
 
+.bar-brand h1{
+	font-family: 'Permanent Marker', cursive;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: left;
+	text-decoration: none;
+	color: #FFFF00;
+	margin-top: 10px;
+	margin-left: 10px;
+	
+}
+
+
+#lista-menu a{
+	font-size: 1.2em;
+	text-align: center;
+	color: #FFFF00;
+}
+
+#lista-menu a:hover{
+	font-weight: bold;
+	font-size: 1.4em;
+	color: #FFFFff;
+	background-color:#DAA520;
+}
+
+
+
+
 /* - - - - end HEADER - - - - - */
-/* - - - - end HEADER - - - - - */
-/* - - - - end HEADER - - - - - */
-/* - - - - end HEADER - - - - - */
+
+
+/* - - - - - Media Queries - - - - - */
+
+
+
+/* - - - - end Media Queries - - - - */
